@@ -4,7 +4,8 @@
   "description": "",
   "main": "all.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "ui-deps": "./node_modules/.bin/bower install",
+    "build": "./node_modules/.bin/gulp"
   },
   "repository": {
     "type": "git",
@@ -20,6 +21,7 @@
   },
   "homepage": "https://github.com/Alpeeva/cdp#readme",
   "devDependencies": {
+    "bower": "^1.6.5",
     "del": "^2.1.0",
     "gulp": "^3.9.0",
     "gulp-concat": "^2.6.0",
