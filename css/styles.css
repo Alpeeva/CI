@@ -1,0 +1,115 @@
+/*header*/
+#header{
+   background-color: #c26464;
+}
+#logo{
+    width: 125px;
+    height: 43px;
+}
+/*navigation*/
+.navigation{
+    background-color: #3d3d3d;
+}
+.navbar-inverse .navbar-nav>li{
+    padding: 0;
+}
+.main-menu{
+    border:0;
+}
+.navbar-inverse .navbar-nav>.active>a,.navbar-inverse .navbar-nav>.active>a:hover,.navbar-inverse .navbar-nav>li>a:hover{
+    background-color: #c26464;
+    color: #fff;
+}
+/*alert*/
+.alert-message{
+    overflow: hidden;
+    margin-bottom: 15px;
+    color: #496c4b;
+    background-color: #def0d8;
+    border: 1px solid #d5e8ca;
+    border-radius: 5px;
+    padding: 15px;
+}
+/*progress-block*/
+.progress-block{
+    box-sizing:border-box;
+}
+li div .progress{
+    height:10px;
+}
+.progress-block h2{
+    color: #c26464;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #c26464;
+    font-size: 20px;
+    box-sizing: border-box;
+    margin-bottom: 35px;
+}
+.blocks{
+    margin-left: -55px;
+    box-sizing:border-box;
+}
+.blocks {
+    list-style-type: none;
+}
+
+.blocks li .item {
+    color: white;
+    border-radius: 5px;
+    padding: 15px;
+    box-sizing: border-box;
+}
+.blocks li .item.block-1 {
+    background: #b8b739;
+}
+.blocks li .item.block-2 {
+    background: #f94d4d;
+}
+.blocks li .item.block-3 {
+    background: #119c7d;
+}
+.blocks li .item.block-4 {
+    background: #243a83;
+}
+.blocks li .item .glyphicon {
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+.blocks li .item p {
+    font-size: 18px;
+}
+.block-with-text{
+    margin-bottom: 20px;
+}
+/*notice-panel*/
+.panel-body ul li{
+    list-style: none;
+    padding: 15px;
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+    margin-left: -20px;
+}
+.panel-body ul li a{
+   color: #000;
+}
+/*footer*/
+#footer{
+    background-color: #c26464;
+    color: #fff;
+    padding: 15px;
+    font-size: 14px;
+}
+@media only screen and (max-width: 990px) {
+    .panel-block2{
+        margin-left: -15px;
+    }
+}
+@media only screen and (max-width: 769px) {
+    .navbar-inverse .navbar-nav>li{
+        padding: 3px 10px;
+    }
+}

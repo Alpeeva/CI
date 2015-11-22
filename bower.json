@@ -1,0 +1,27 @@
+{
+  "name": "cdp",
+  "description": "",
+  "main": "all.js",
+  "authors": [
+    "Kateryna Alpieieva"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "ci"
+  ],
+  "moduleType": [
+    "globals"
+  ],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "bootstrap": "~3.3.5"
+  }
+}
