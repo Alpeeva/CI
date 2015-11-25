@@ -6,6 +6,7 @@
   "scripts": {
     "ui-deps": "./node_modules/.bin/bower install",
     "build": "./node_modules/.bin/gulp"
+    "test": "echo \"Tests... Coming on this fall...\""
   },
   "repository": {
     "type": "git",
