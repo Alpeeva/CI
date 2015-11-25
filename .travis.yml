@@ -2,3 +2,7 @@
 language: node_js
 node_js:
   - "4.1"
+before_script:
+ - npm run ui-deps 
+script:
+ - npm run build
